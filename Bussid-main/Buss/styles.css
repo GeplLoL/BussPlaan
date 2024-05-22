@@ -1,0 +1,190 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e3e3e3;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    height: 96.5vh;
+}
+p {
+    font-size: 30px;
+}
+.sidebar {
+    width: 400px;
+    background-color: #D9D9D9;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+}
+
+.sidebar a {
+    padding: 20px 20px;
+    margin: 15px 25px;
+    color: #D9D9D9;
+    background-color: black;
+    text-decoration: none;
+    display: block;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.content_text {
+    font-size: 35px;
+    padding: 20px;
+    width: 1200px;
+    height: 400px;
+    background-color: #D9D9D9;
+    margin-left: 30px;
+    padding: 50px;
+    color: black;
+    font-weight: bold;
+}
+
+.bgcol {
+    background-color: #333333;
+    color: white;
+    width: 100%;
+}
+
+.sidebar a:hover {
+    background-color: #444;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    background-color: white;
+}
+
+ul li p {
+    font-size: 30px;
+    margin-left: 30px;
+}
+
+.btn-container {
+    display: flex;
+    align-items: center;
+
+    color: black;
+    font-size: 20px;
+}
+
+.header {
+    background-color: #d3b2b2;
+    padding: 20px;
+    text-align: center;
+    font-size: 24px;
+    color: white;
+    height: 30px;
+}
+
+.main {
+    display: flex;
+    flex-grow: 1;
+}
+
+.main .menu {
+    width: 200px;
+    background-color: #555;
+    color: white;
+    padding-top: 20px;
+}
+
+.main .menu a {
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+.main .menu a:hover {
+    background-color: #666;
+}
+
+.main .content {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+}
+
+.main .content {
+    width: 300px;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+}
+
+.main .content .left-panel ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.main .content .left-panel ul li {
+    margin-bottom: 10px;
+}
+
+.left-panel-container {
+    background-color: #D9D9D9;
+    padding: 10px;
+    margin:10px 50px 0px 30px
+}
+
+.btn-with-image {
+    background-image: url('1200px-Logo_Blue_Bus.svg.png');
+    background-size: 40px 40px;
+    background-position: left center;
+    background-repeat: no-repeat;
+    width: 105px;
+    height: 60px;
+    border: none;
+    cursor: pointer;
+    background-color: chartreuse;
+    color: black;
+    text-align: left;
+    padding-left: 50px;
+    line-height: 60px;
+    font-size: 40px;
+    margin-left: 20px;
+    font-family: 'Inknut Antiqua';
+}
+
+h1 {
+    color: #D3B4B4;
+    font-size: 50px;
+    margin-bottom: 100px;
+    margin-left: 30px;
+}
+.head3 {
+    color: black;
+    margin-left: 20px;
+}
+.main .content .map {
+    flex-grow: 1;
+}
+
+#map {
+    height: 100%;
+    width: 100%;
+}
+
+.left-panel {
+    width: 100%;
+}
+td {
+    padding: 20px;
+    font-size: 30px;
+    border: solid 2px;
+}
+
+th {
+    font-size: 50px;
+    font-weight: bold;
+    margin: 20px;
+    border: solid 2px;
+    padding: 10px;
+}
